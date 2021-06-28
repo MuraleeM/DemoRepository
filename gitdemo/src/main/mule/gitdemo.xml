@@ -2,4 +2,8 @@
 
 <mule xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd"></mule>
+	xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd">
+	<flow name="gitdemoFlow" doc:id="76a23171-d66b-48fb-b1c3-e6adf4d6fe39" >
+		<logger level="INFO" doc:name="Logger" doc:id="51c727ce-db3a-4ed1-bc0f-716fed67ac26" message='"Hello"'/>
+	</flow>
+</mule>
